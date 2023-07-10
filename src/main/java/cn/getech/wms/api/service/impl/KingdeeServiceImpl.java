@@ -327,7 +327,7 @@ public class KingdeeServiceImpl implements KingdeeService {
             conn.setDoOutput(true);
             inputStream = conn.getInputStream();
             response.reset();
-            response.setContentType("application/pdf");
+            //response.setContentType("application/pdf");
             response.setHeader("Content-Disposition","filename="+ URLEncoder.encode(fileName,"UTF-8"));
             byte[] buffer = new byte[1024];
             int len;
