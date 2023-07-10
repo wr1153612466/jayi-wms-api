@@ -1,0 +1,126 @@
+{
+  "NeedUpDateFields": [],
+  "NeedReturnFields": [],
+  "IsDeleteEntry": "true",
+  "SubSystemId": "",
+  "IsVerifyBaseDataField": "false",
+  "IsEntryBatchFill": "true",
+  "ValidateFlag": "true",
+  "NumberSearch": "true",
+  "IsAutoAdjustField": "false",
+  "InterationFlags": "",
+  "IgnoreInterationFlag": "",
+  "IsControlPrecision": "false",
+  "ValidateRepeatJson": "false",
+  "Model": {
+    "FID": 0,
+    "FBillTypeID": {
+      "FNUMBER": "ZJDB01_SYS"
+    },
+    "FBizType": "NORMAL",
+    "FTransferDirect": "GENERAL",
+    "FTransferBizType": "InnerOrgTransfer",
+    "FSettleOrgId": {
+      "FNumber": "10001"
+    },
+    "FSaleOrgId": {
+      "FNumber": "10001"
+    },
+    "FStockOutOrgId": {
+      "FNumber": "10001"
+    },
+    "FOwnerTypeOutIdHead": "BD_OwnerOrg",
+    "FOwnerOutIdHead": {
+      "FNumber": "10001"
+    },
+    "FStockOrgId": {
+      "FNumber": "10001"
+    },
+    "FIsIncludedTax": true,
+    "FIsPriceExcludeTax": true,
+    "FExchangeTypeId": {
+      "FNUMBER": "HLTX01_SYS"
+    },
+    "FOwnerTypeIdHead": "BD_OwnerOrg",
+    "FSETTLECURRID": {
+      "FNUMBER": "PRE001"
+    },
+    "FExchangeRate": 1.0,
+    "FOwnerIdHead": {
+      "FNumber": "10001"
+    },
+    "FDate": "2022-11-24 00:00:00",
+    "FBaseCurrId": {
+      "FNumber": "PRE001"
+    },
+    "FSUPPLIERID": {
+      "FNUMBER": "0001"
+    },
+    "FCustID": {
+      "FNUMBER": "20119"
+    },
+    "FWriteOffConsign": false,
+    "FISOVER": false,
+    "FBillEntry": [
+      {
+        "FRowType": "Standard",
+        "FMaterialId": {
+          "FNumber": "112.13.53001"
+        },
+        "FUnitID": {
+          "FNumber": "根"
+        },
+        "FQty": 1.000,
+        "FSrcStockId": {
+          "FNumber": "101001"
+        },
+        "FDestStockId": {
+          "FNumber": "CK017"
+        },
+        "FSrcStockStatusId": {
+          "FNumber": "KCZT01_SYS"
+        },
+        "FDestStockStatusId": {
+          "FNumber": "KCZT01_SYS"
+        },
+        "FBusinessDate": "2022-11-24 00:00:00",
+        "FOwnerTypeOutId": "BD_OwnerOrg",
+        "FOwnerOutId": {
+          "FNumber": "10001"
+        },
+        "FOwnerTypeId": "BD_OwnerOrg",
+        "FOwnerId": {
+          "FNumber": "10001"
+        },
+        "FBaseUnitId": {
+          "FNumber": "根"
+        },
+        "FBaseQty": 1.000,
+        "FISFREE": false,
+        "FKeeperTypeId": "BD_KeeperOrg",
+        "FKeeperId": {
+          "FNumber": "10001"
+        },
+        "FKeeperTypeOutId": "BD_KeeperOrg",
+        "FKeeperOutId": {
+          "FNumber": "10001"
+        },
+        "FDestMaterialId": {
+          "FNUMBER": "112.13.53001"
+        },
+        "FSaleUnitId": {
+          "FNumber": "根"
+        },
+        "FSaleQty": 1.000,
+        "FSalBaseQty": 1.000,
+        "FPriceUnitID": {
+          "FNumber": "根"
+        },
+        "FPriceQty": 1.000,
+        "FPriceBaseQty": 1.000,
+        "FTransReserveLink": false,
+        "FCheckDelivery": false
+      }
+    ]
+  }
+}

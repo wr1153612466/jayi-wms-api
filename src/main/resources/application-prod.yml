@@ -1,0 +1,32 @@
+server:
+  port: 19998
+kingdee-identify:
+  dCID : 628afff57f5df0                                         #金蝶配置,对应账套
+  appId : 238087_06bu3ylPVlqXTWxvQ1wL4xyG2JTWWDLu               #金蝶配置,appId
+  appSecret : d17e8c695bbc40f89c125065eb8df4fe                  #金蝶配置,appSecret
+  userName : 格创MES                                             #金蝶配置,账套用户名
+  pwd : jy123456gc                                              #金蝶配置,账套密码
+  lCID : 2052                                                   #金蝶配置,编程语言
+  serverUrl : http://112.12.19.230:10001/K3Cloud/               #金蝶地址
+  connectTimeout : 30000
+  requestTimeout : 30000
+  stockTimeout : 30000
+  warehouseUrl : http://112.12.19.230:10001/CloudPLMWarehouse/  #文件服务器地址
+  plmDownLoadUrl : http://localhost:${server.port}/v1/kingdee/plm/download/  #包赚金蝶PLM文件下载地址接口
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://192.168.1.114:3306/warehouse?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: zcnest
+
+    url: jdbc:mysql://39.108.183.169:40729/warehouse?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 'Clq40729!@#'
+
+logging:
+  path: data/log/jiayi/wms/api #配置日志生成路径
+  config: classpath:logback-spring.xml
+
+
+

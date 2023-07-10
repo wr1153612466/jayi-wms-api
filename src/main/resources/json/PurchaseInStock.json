@@ -1,0 +1,110 @@
+{
+  "NeedUpDateFields": [],
+  "NeedReturnFields": [],
+  "IsDeleteEntry": "true",
+  "SubSystemId": "",
+  "IsVerifyBaseDataField": "false",
+  "IsEntryBatchFill": "true",
+  "ValidateFlag": "true",
+  "NumberSearch": "true",
+  "IsAutoAdjustField": "false",
+  "InterationFlags": "",
+  "IgnoreInterationFlag": "",
+  "IsControlPrecision": "false",
+  "ValidateRepeatJson": "false",
+  "Model": {
+    "FID": 0,
+    "FBillTypeID": {
+      "FNUMBER": "RKD01_SYS"
+    },
+    "FDate": "2022-11-24 00:00:00",
+    "FStockOrgId": {
+      "FNumber": "10001"
+    },
+    "FDemandOrgId": {
+      "FNumber": "10001"
+    },
+    "FCorrespondOrgId": {
+      "FNumber": "10001"
+    },
+    "FPurchaseOrgId": {
+      "FNumber": "10001"
+    },
+    "FSupplierId": {
+      "FNumber": "0001"
+    },
+    "FSupplyId": {
+      "FNumber": "0001"
+    },
+    "FSettleId": {
+      "FNumber": "0001"
+    },
+    "FChargeId": {
+      "FNumber": "0001"
+    },
+    "FOwnerTypeIdHead": "BD_OwnerOrg",
+    "FOwnerIdHead": {
+      "FNumber": "10001"
+    },
+    "FSplitBillType": "A",
+    "FInStockFin": {
+      "FSettleOrgId": {
+        "FNumber": "10001"
+      },
+      "FSettleTypeId": {
+        "FNumber": "JSFS04_SYS"
+      },
+      "FSettleCurrId": {
+        "FNumber": "PRE001"
+      },
+      "FIsIncludedTax": true,
+      "FPriceTimePoint": "1",
+      "FLocalCurrId": {
+        "FNumber": "PRE001"
+      },
+      "FExchangeTypeId": {
+        "FNumber": "HLTX01_SYS"
+      },
+      "FExchangeRate": 1.0,
+      "FISPRICEEXCLUDETAX": true
+    },
+    "FInStockEntry": [
+      {
+        "FRowType": "Standard",
+        "FMaterialId": {
+          "FNumber": "112.13.53001"
+        },
+        "FUnitID": {
+          "FNumber": "根"
+        },
+        "FMaterialDesc": "201钢管SP4774/SP4776外壳",
+        "FRealQty": 1.0,
+        "FPriceUnitID": {
+          "FNumber": "kg"
+        },
+        "FStockId": {
+          "FNumber": "101001"
+        },
+        "FStockStatusId": {
+          "FNumber": "KCZT01_SYS"
+        },
+        "FGiveAway": false,
+        "FOWNERTYPEID": "BD_OwnerOrg",
+        "FCheckInComing": false,
+        "FIsReceiveUpdateStock": false,
+        "FPriceBaseQty": 1.000,
+        "FRemainInStockUnitId": {
+          "FNumber": "根"
+        },
+        "FBILLINGCLOSE": false,
+        "FRemainInStockQty": 1.0,
+        "FAPNotJoinQty": 0.952,
+        "FRemainInStockBaseQty": 1.0,
+        "FEntryTaxRate": 13.00,
+        "FOWNERID": {
+          "FNumber": "10001"
+        }
+      }
+    ]
+  }
+}

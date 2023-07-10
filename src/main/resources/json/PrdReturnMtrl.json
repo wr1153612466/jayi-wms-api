@@ -1,0 +1,95 @@
+{
+  "NeedUpDateFields": [],
+  "NeedReturnFields": [],
+  "IsDeleteEntry": "true",
+  "SubSystemId": "",
+  "IsVerifyBaseDataField": "false",
+  "IsEntryBatchFill": "true",
+  "ValidateFlag": "true",
+  "NumberSearch": "true",
+  "IsAutoAdjustField": "false",
+  "InterationFlags": "",
+  "IgnoreInterationFlag": "",
+  "IsControlPrecision": "false",
+  "Model": {
+    "FID": 0,
+    "FBillType": {
+      "FNUMBER": "SCTLD01_SYS"
+    },
+    "FDate": "2022-11-22 00:00:00",
+    "FStockOrgId": {
+      "FNumber": "10001"
+    },
+    "FPrdOrgId": {
+      "FNumber": "10001"
+    },
+    "FOwnerTypeId0": "BD_OwnerOrg",
+    "FIsCrossTrade": false,
+    "FVmiBusiness": false,
+    "FIsOwnerTInclOrg": false,
+    "FEntity": [
+      {
+        "FMaterialId": {
+          "FNumber": "112.13.53001"
+        },
+        "FUnitID": {
+          "FNumber": "根"
+        },
+        "FAPPQty": 1.0,
+        "FQty": 1.0,
+        "FReturnType": "1",
+        "FReturnReason": {
+          "FNumber": "106"
+        },
+        "FStockId": {
+          "FNumber": "101001"
+        },
+        "FSrcBillType": "PRD_PPBOM",
+        "FSrcBillNo": "PPBOM00037102",
+        "FPPBomBillNo": "PPBOM00037102",
+        "FParentMaterialId": {
+          "FNumber": "30117.10557.206"
+        },
+        "FMoId": 125294,
+        "FReserveType": "1",
+        "FBASESTOCKQTY": 1.0,
+        "FMoBillNo": "生产订单110962",
+        "FEntryVmiBusiness": false,
+        "FMoEntryId": 139602,
+        "FIsUpdateQty": false,
+        "FIsOverLegalOrg": false,
+        "FCheckReturnMtrl": false,
+        "FMoEntrySeq": 1,
+        "FStockUnitId": {
+          "FNumber": "根"
+        },
+        "FStockAppQty": 1.0,
+        "FStockQty": 1.0,
+        "FStockStatusId": {
+          "FNumber": "KCZT01_SYS"
+        },
+        "FKeeperTypeId": "BD_KeeperOrg",
+        "FKeeperId": {
+          "FNumber": "10001"
+        },
+        "FBaseUnitId": {
+          "FNumber": "根"
+        },
+        "FBaseAppQty": 1.0,
+        "FBaseQty": 1.0,
+        "FOwnerTypeId": "BD_OwnerOrg",
+        "FOwnerId": {
+          "FNumber": "10001"
+        },
+        "FEntrySrcEnteryId": 137131,
+        "FWorkShopId1": {
+          "FNumber": "09.06"
+        },
+        "FParentOwnerTypeId": "BD_OwnerOrg",
+        "FParentOwnerId": {
+          "FNumber": "10001"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "Model": {
+    "FBillNo":"TEST001",
+    "FBillType": {
+      "FNUMBER": "SCLLD01_SYS"
+    },
+    "FDate": "2022-12-2 00:00:00",
+    "FStockOrgID": {
+      "FNumber": "10001"
+    },
+    "FStockId0": {
+      "FNumber": "201008"
+    },
+    "FPrdOrgId": {
+      "FNumber": "10001"
+    },
+    "FOwnerTypeId0": "BD_OwnerOrg",
+    "FOwnerId0": {
+      "FNumber": "10001"
+    },
+    "FDescription": "",
+    "FEntity": [{
+      "FEntryID": 0,
+      "FParentMaterialId": {
+        "FNumber": "2408.0555.002"
+      },
+      "FBaseStockActualQty": 1062,
+      "FMaterialId": {
+        "FNumber": "2303.0555.002"
+      },
+      "FUNITID": {
+        "FNumber": "个"
+      },
+      "FAppQty": 1,
+      "FActualQty": 1,
+      "FStockId": {
+        "FNumber": "201008"
+      },
+      "FLot": {
+        "FNumber": "10001"
+      },
+      "FBomId": {
+        "FNumber": "399296"
+      },
+      "FStockStatusId": {
+        "FNumber": "KCZT01_SYS"
+      },
+      "FEntrtyMemo": "",
+      "FMtoNo": "",
+      "FMoEntrySeq": 1,
+      "FMoId": 129876,
+      "FMoBillNo": "MO010369",
+      "FMoEntryId": 144843,
+      "FOwnerTypeId": "BD_OwnerOrg",
+      "FStockUnitId": {
+        "FNumber": "个"
+      },
+      "FBaseUnitID": {
+        "FNumber": "个"
+      },
+      "FBaseAppQty": 1062,
+      "FBaseActualQty": 1,
+      "FEntryWorkShopId": {
+        "FNumber": ""
+      },
+      "FKeeperTypeId": "BD_KeeperOrg",
+      "FKeeperID": {
+        "FNumber": "10001"
+      },
+      "FOwnerID": {
+        "FNumber": "10001"
+      },
+      "FSrcBillType": "PRD_MO",
+      "FSrcBillNo": "MO010369",
+      "FPPBomEntryId": 403467,
+      "FPPBomBillNo":"PPBOM00042345",
+      "FParentOwnerTypeId": "BD_OwnerOrg",
+      "FParentOwnerId": {
+        "FNumber": "10001"
+      },
+      "FEntity_Link": [{
+        "FEntity_Link_FSTableName": "T_PRD_PPBOMENTRY",
+        "FEntity_Link_FRuleId": "2a041a19-bf28-4a32-8708-c5ba53c01fa2",
+        "FEntity_Link_FSBillId": 142402,
+        "FEntity_Link_FSId": 403467,
+        "FEntity_Link_FBaseActualQtyOld": 1,
+        "FEntity_Link_FBaseActualQty": 1
+      }]
+    }]
+  }
+}

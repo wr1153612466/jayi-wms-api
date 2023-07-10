@@ -1,0 +1,61 @@
+{
+    "NeedUpDateFields": [],
+    "NeedReturnFields": [],
+    "IsDeleteEntry": "true",
+    "SubSystemId": "",
+    "IsVerifyBaseDataField": "false",
+    "IsEntryBatchFill": "true",
+    "ValidateFlag": "true",
+    "NumberSearch": "true",
+    "IsAutoAdjustField": "false",
+    "InterationFlags": "",
+    "IgnoreInterationFlag": "",
+    "IsControlPrecision": "false",
+    "ValidateRepeatJson": "false",
+    "Model": {
+        "FID": 0,
+        "FBillTypeID": {
+            "FNUMBER": "QTRKD01_SYS"
+        },
+        "FStockOrgId": {
+            "FNumber": "10001"
+        },
+        "FStockDirect": "GENERAL",
+        "FDate": "2022-11-24 00:00:00",
+        "FSUPPLIERID": {
+            "FNumber": "0001"
+        },
+        "FOwnerTypeIdHead": "BD_OwnerOrg",
+        "FOwnerIdHead": {
+            "FNumber": "10001"
+        },
+        "FBaseCurrId": {
+            "FNumber": "PRE001"
+        },
+        "FEntity": [
+            {
+                "FMATERIALID": {
+                    "FNumber": "112.13.53001"
+                },
+                "FUnitID": {
+                    "FNumber": "根"
+                },
+                "FSTOCKID": {
+                    "FNumber": "101001"
+                },
+                "FSTOCKSTATUSID": {
+                    "FNumber": "KCZT01_SYS"
+                },
+                "FQty": 1.0,
+                "FOWNERTYPEID": "BD_OwnerOrg",
+                "FOWNERID": {
+                    "FNumber": "10001"
+                },
+                "FKEEPERTYPEID": "BD_KeeperOrg",
+                "FKEEPERID": {
+                    "FNumber": "10001"
+                }
+            }
+        ]
+    }
+}
