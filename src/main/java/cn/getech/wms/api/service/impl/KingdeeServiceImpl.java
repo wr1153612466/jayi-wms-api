@@ -15,6 +15,7 @@ import cn.getech.wms.api.service.KingdeeService;
 import cn.getech.wms.api.util.JsonUtil;
 import cn.getech.wms.api.util.ResultVOUtil;
 import cn.hutool.core.collection.CollectionUtil;
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HttpUtil;
 import cn.hutool.json.JSONUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -318,7 +319,6 @@ public class KingdeeServiceImpl implements KingdeeService {
             String token = getToken();
             URL url = new URL(u);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            //conn.setRequestProperty("Content-Type","application/pdf");
             conn.setInstanceFollowRedirects(false);
             conn.setRequestProperty("FileID", Base64Utils.encodingToBase64(filedId.getBytes()));
             conn.setRequestProperty("CTX", Base64Utils.encodingToBase64(("LoginUrl="+k3IdentifyConfig.getServerUrl()+"&UserToken="+token+"").getBytes()));
@@ -327,7 +327,10 @@ public class KingdeeServiceImpl implements KingdeeService {
             conn.setDoOutput(true);
             inputStream = conn.getInputStream();
             response.reset();
-            //response.setContentType("application/pdf");
+            response.setContentType(conn.getContentType());
+            if (StrUtil.containsIgnoreCase(fileName,"pdf")){
+                response.setContentType("application/pdf");
+            }
             response.setHeader("Content-Disposition","filename="+ URLEncoder.encode(fileName,"UTF-8"));
             byte[] buffer = new byte[1024];
             int len;
